@@ -31,3 +31,23 @@ article > p{
     padding: 10px;
     font-weight: 700;
 }
+#para {
+    background-color: blueviolet;
+}
+#para:hover{
+    background-color: brown;
+}
+#btn:hover {
+    background-color: rgb(234, 11, 145);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    scale: 1.1;
+}
+.padding{
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+    padding: 100px;
+    margin: 150px;
+}
