@@ -1,0 +1,33 @@
+/* targeting html elements with tagname or type selector */
+body {
+  background-color: blue;
+}
+
+/* targeting html elements with class name, it must be prefixed with a dot(.) */
+.container {
+  background: red;
+  color: white;
+}
+
+.child {
+  background: red;
+  color: white;
+}
+
+/* targeting html elements with id, it must be prefixed with a # */
+#main {
+  background-color: blue;
+  color: white;
+}
+#image {
+  width: 300px;
+  height: 300px;
+}
+.box p{
+    color: red;
+}
+article > p{
+    background-color: green;
+    padding: 10px;
+    font-weight: 700;
+}

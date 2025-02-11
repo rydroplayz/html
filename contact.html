@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>contact us</h2>
+    <form action="mailto:stanleyzebulonj@gmail.com">
+      <!-- "for" attribute is used to associate the label with the input field -->
+      <label for="fullname">Fullname:</label>
+      <input type="text" placeholder="John Doe" name="fullname" id="fullname" />
+      <br />
+      <label for="email">Email:</label>
+      <input
+      required
+        type="email"
+        placeholder="johndoe@email.com"
+        name="email"
+        id="email"
+      />
+      <br />
+      <label for="message">Message:</label>
+      <br />
+      <!-- textarea is used to create a multi-line text input field  -->
+      <textarea
+        name="message"
+        placeholder="enter message here"
+        id="message"
+        rows="20"
+        cols="60"
+        readonly
+      ></textarea>
+      <br />
+      <input type="button" value="click me" />
+      <br />
+      <input type="number" placeholder="number" min="1" max="8" width="100"/>
+      <br />
+      <input type="password" minlength="6" />
+      <br />
+      <input type="date" />
+      <br />
+      <label for="gender">male</label>
+      <input type="radio" name="gender" value="male" />
+      <label for="gender">female</label>
+      <input type="radio" name="gender" value="female" />
+      <br />
+      <input type="checkbox" />
+      <br />
+      <input type="color" />
+      <br />
+      <input type="file" />
+      <br />
+      <input type="range" />
+      <br>
+      <select>
+        <option value="america">America us</option>
+        <option value="Egypt">Egypt 🇪🇬 </option>
+        <option value="Monaco">Monaco 🇲🇨 </option>
+      </select>
+      <button type="submit" disabled>submit</button>
+      <button type="reset">reset</button>
+    </form>
+  </body>
+</html>
