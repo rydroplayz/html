@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .form-input {
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is the home section. Here you can introduce yourself or provide a brief description of your site.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This section is about you. You can talk about your background, interests, and anything else that describes who you are.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2>My Work</h2>
+        <p>This section showcases your work. You can list projects, accomplishments, and anything related to your professional work.</p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>My Resume</h2>
+        <p>Provide a downloadable version of your resume or include a summary of your qualifications and experience.</p>
+        <ul>
+            <li>Education: Degree in Computer Science</li>
+            <li>Skills: HTML, CSS, JavaScript, Python</li>
+            <li>Experience: 5 years as a web developer</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" class="form-input" placeholder="Enter your message" rows="4" required></textarea>
+
+            <button type="submit" class="form-input">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
