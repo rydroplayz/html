@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+ <html lang="en"> 
+
+<head>    
+
+<meta charset="UTF-8">  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+ <title>Delicious Bites Menu</title> </head>
+
+ <body>   
+
+ <h1>Delicious Bites Menu</h1>
+
+    <h2>Appetizers</h2>  
+
+  <ul>     
+
+   <li>          
+
+  <strong>Caprese Salad</strong>       
+
+     <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
+
+       </li>    
+<li>
+    <strong>Ceaser Salad</strong>       
+
+     <p>A combination of fresh tomatoes, chicken strips, and lettuce with some Ceaser salad dressing.</p> 
+    </li>
+    
+    <li>
+    <strong>Clam Dip</strong>       
+
+     <p>An elegant appetizer mad with minced clam, cream cheese, hot sauce and worcestershire sauce.</p> 
+    </li>
+
+   </ul>  
+
+  <h2>Main Courses</h2> 
+
+   <ul>   
+
+     <li>      
+
+      <strong>Grilled Salmon</strong>     
+
+       <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>   
+
+     </li>     
+
+   <li>
+    <strong>Stir-fry Fried rice<strong>       
+
+     <p>A special chinese rice dish made with fresh spring onions, chicken strips, shrimp,scrambled eggs and washed rice.</p> 
+    </li>
+      
+      <li>
+        
+    <strong>Steak and Mashed potatoes</strong>       
+
+     <p>Grilled beef, cream cheese, and mashed sweet potatoes.</p> 
+        
+    </li>
+
+   </ul>   
+
+ <h2>Desserts</h2>  
+
+  <ul>     
+
+   <li>    
+
+        <strong>Chocolate Fondue</strong>     
+
+       <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>    
+
+    </li>    
+<li>
+         <strong>brownies</strong>     
+
+       <p>mini chocolate cakes with chocolate fudge .</p>   
+    </li>
+    
+    <li>
+         <strong>Cookies</strong>     
+
+       <p>a crunchy dessert made from flour and sugar</p>   
+    </li>
+  </ul> 
+
+   <p><a href="contact.html">Contact us for reservations</a></p> 
+
+</body>
+
+ </html>
